@@ -6,6 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 0;
     background: #1F2937;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -52,8 +53,9 @@ button{
 
 .display-password{
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .rectangle{
     background-color: #273549;
@@ -62,5 +64,6 @@ button{
     border-radius: 5px;
     text-align: center;
     padding-top: 10px;
+    margin: 10px;
     color: #55F991;
 }
